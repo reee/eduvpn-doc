@@ -2,15 +2,11 @@
 
 eduVPN从2010年开始服务，eduVPN目前提供以下服务：
 
- * openVPN （同时提供ipv4 和ipv6接入但是ipv4因为受干扰而无法使用）
- * shadowsocks （在相同的端口同时提供ipv4 和ipv6接入）
- * ocserv （仅提供ipv4接入，同时兼容openconnect和anyconnect客户端）
- * pptp （仅提供ipv4接入，受干扰严重，不推荐）
-
-其中除了shadowsocks以外其他所有VPN均接入freeradius统一进行认证，也就是同一个用户名/密码使用openvpn，pptp。anyconnet/openconnect。
-没有配置l2tp的主要考虑是l2tp目前跟pptp差不多半残废，而没有配纯ikev2的主要原因是麻痹配了好几久都没搞定。
-
-预期在不久的将来提供ikev2支持。
+ * openVPN (ipv6 / ipv4)
+ * shadowsocks (ipv6 / ipv4)
+ * openconnect / anyconnect (ipv4 only, by ocserv)
+ * pptp (ipv4 only)
+ * pure ikev2 ( ipv4 only, by strongswan)
 
 # 致谢
 
