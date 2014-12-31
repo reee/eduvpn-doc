@@ -3,11 +3,11 @@
 
 链接名称 | 路由方式 | 是否支持国内路由穿透 | 是否支持IPV6 | 平台支持 | 补充说明
 --- | --- | --- | --- | --- | ---
-openVPN | 全局路由 | 通过.ovpn指定路由表穿透 | 支持 | Windows, iOS,Mac OS, Linux | IPV4已经全面瘫痪，IPV6也有被墙的迹象，推荐IPV6用户使用。
-shadowsocks | 在本地提供一个socks5 / http代理 | 最新版直接支持国内路由穿透 | 支持 | Windows, iOS,Mac OS, Linux | 目前效率最高的连接方式，但是不支持全局代理，**推荐IPV4桌面端用户使用**。
-openconnect / anyconnect | 全局路由 | 由服务器指定国内路由穿透（已配置） | 不支持 | Windows, iOS,Mac OS, Linux | 支持漫游，即从一个网络切换到另外一个网络可以保持在线。**推荐移动端用户使用**。
-pure IKEv2（strongswan） | 全局路由 | 暂不支持 | | Windows, iOS,Mac OS, Linux | 因为被大量企业使用，所以是目前最不容易受照顾的协议，推荐用作后备。
-PPTP | 全局路由 | 客户端指定路由表 | Windows, iOS,Mac OS, Linux | 不安全，已经被墙照顾，不推荐使用。
+openVPN | 全局路由 | 通过.ovpn指定路由表穿透 | 支持 | Windows, Mac OS, Linux, iOS, Android | IPV4已经全面瘫痪，IPV6也有被墙的迹象，**推荐IPV6用户使用**。
+shadowsocks | 在本地提供一个socks5 / http代理 | 最新版直接支持国内路由穿透 | 支持 | Windows, Mac OS, Linux, iOS, Android | 目前效率最高的连接方式，但是不支持全局代理，**推荐IPV4桌面端用户使用**。
+openconnect / anyconnect | 全局路由 | 由服务器指定国内路由穿透（已配置） | 不支持 | Windows, Mac OS, Linux, iOS, Android | 支持漫游，即从一个网络切换到另外一个网络可以保持在线。**推荐移动端用户使用**。
+IKEv2 | 全局路由 | 暂不支持 | | Windows, Mac OS, Linux, iOS, Android, Windows Phone | 因为被大量企业使用，所以是目前最不容易受照顾的协议，**推荐用作后备，Windows Phone用户目前只能使用IKEv2**。
+PPTP | 全局路由 | 客户端指定路由表 | 不支持 | Windows, Mac OS, Linux, iOS, Android | 不安全，已经被墙照顾，不推荐使用。
 
-注：基于openwrt的路由器目前比较成熟的方案为shadowsocks，在路由器上使用shadowsocks可以让该路由下所有设备同时享受VPN效果，推荐倒腾党采用。
+注：基于openwrt的路由器目前比较成熟的方案为shadowsocks，在路由器上使用shadowsocks可以让该路由下所有设备同时享受VPN效果，**推荐倒腾党采用**。
 
