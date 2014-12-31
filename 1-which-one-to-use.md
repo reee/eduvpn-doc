@@ -9,5 +9,15 @@ openconnect / anyconnect | 全局路由 | 由服务器指定国内路由穿透�
 IKEv2 | 全局路由 | 暂不支持 | | Windows, Mac OS, Linux, iOS, Android, Windows Phone | 因为被大量企业使用，所以是目前最不容易受照顾的协议，**推荐用作后备，Windows Phone用户目前只能使用IKEv2**。
 PPTP | 全局路由 | 客户端指定路由表 | 不支持 | Windows, Mac OS, Linux, iOS, Android | 不安全，已经被墙照顾，不推荐使用。
 
+注1：其中除**openVPN当前 IPv4监听1194端口，IPv6监听1195端口**，shadowsocks每个用户单独占用一个端口，其他服务均运行在默认端口。
 注：基于openwrt的路由器目前比较成熟的方案为shadowsocks，在路由器上使用shadowsocks可以让该路由下所有设备同时享受VPN效果，**推荐倒腾党采用**。
 
+目前服务器列表如下：
+
+服务器地址 | 地理位置 | 机房 | 带宽情况
+--- | --- | --- | ---
+tokyo-jp.eduvpn.net | 日本 东京 | Sakura东京机房 | 100Mbps对等。
+fremont-us.eduvpn.net | 美国 费利蒙 | Linode 东京机房 | 40Gbps In，125Mbps Out。
+sgp.eduvpn.net | 新加坡 | DigitalOcean 新加坡机房 | 1Gbps对等。
+
+注：服务器相关监控，包括负载，带宽占用等，请查看：[munin](https://eduvpn.net/munin)
