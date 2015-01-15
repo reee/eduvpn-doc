@@ -9,7 +9,6 @@ openconnect / anyconnect | 全局路由 | 由服务器指定国内路由穿透�
 IKEv2 | 全局路由 | 暂不支持 | | Windows, Mac OS, Linux, iOS, Android, Windows Phone | 因为被大量企业使用，所以是目前最不容易受照顾的协议，**推荐用作后备，Windows Phone用户目前只能使用IKEv2**。
 PPTP | 全局路由 | 客户端指定路由表 | 不支持 | Windows, Mac OS, Linux, iOS, Android | 不安全，已经被墙照顾，不推荐使用。
 
-注1：其中除**openVPN当前 IPv4监听1194端口，IPv6监听1195端口**，shadowsocks每个用户单独占用一个端口，其他服务均运行在默认端口。
 注：基于openwrt的路由器目前比较成熟的方案为shadowsocks，在路由器上使用shadowsocks可以让该路由下所有设备同时享受VPN效果，**推荐倒腾党采用**。
 
 ## 目前服务器列表如下：
