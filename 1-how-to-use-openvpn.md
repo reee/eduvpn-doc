@@ -22,10 +22,10 @@ Mac OS: config-mac.zip
 
 Linux/Windows与Mac OS的区别在于前者支持从文本文件读取用户名，密码，而后者不支持。默认配置为从eduvpn.txt文件读取，格式为：首行用户名，次行密码：
 
->xiaoming
->getout
+  xiaoming
+  getout
 
-**需要自行加入eduvpn.txt文件** 否则会报错无法连接。
+**需要自行加入到eduvpn.txt文件** 否则会报错无法连接。
 
 如果提供的新服务器没有同步配置文件，请自行使用恰当的编辑器替换 remote 段。
 
@@ -33,10 +33,10 @@ Linux/Windows与Mac OS的区别在于前者支持从文本文件读取用户名�
 
 系统 | 默认目录 | 注意
 --- | --- | ---
-Windows | C:\Program Files\OpenVPN\config | 即您选择的安装目录下的config文件夹
-Mac OS | ~/Library/Application Support/Tunnelblick/Configurations | 无
-Linux | /etc/openvpn | 如果您自行编译的话，以编译时指定的目录为准
+Windows | *C:\Program Files\OpenVPN\config* | 即您选择的安装目录下的config文件夹
+Mac OS | *~/Library/Application Support/Tunnelblick/Configurations* | 无
+Linux | */etc/openvpn* | 如果您自行编译的话，以编译时指定的目录为准
 
 放置好配置文件以后即可直接连接。
 
-注意：如果需要校内地址穿透，请下载 [routes.zip](https://eduvpn.net/files/route.zip) ，打开对应学校命名的txt文档比如 bnu.txt 加入到配置文件最后即可。
+注意：如果需要校内地址穿透，请下载 [routes.zip](https://eduvpn.net/files/route.zip) ，打开对应学校命名的txt文档比如 *bnu.txt* 加入到配置文件最后即可。
