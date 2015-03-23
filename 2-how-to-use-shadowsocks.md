@@ -15,4 +15,15 @@ shadowsocks是一个比较新的协议，相比其他方式，主要特点如下
 
 ## 二、安装shadowsocks客户端
 
-Windows用户请使用由shadowsocks项目发起人提供的
+Windows用户：
+
+Mac用户：
+
+Linux用户：可以从对应软件源直接安装，也可以从源码编译：
+
+Android用户：从Play安装：https://play.google.com/store/apps/details?id=com.github.shadowsocks
+
+iOS用户：从app store安装：https://itunes.apple.com/cn/app/shadowsocks/id665729974?mt=8
+
+## 三、连接
+
