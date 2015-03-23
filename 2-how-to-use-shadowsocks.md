@@ -27,12 +27,12 @@ iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?
 
 例如:
 
->tokyo-jp.eduvpn.net
->your-port
->your-password
->aes-128-cfb
->any-comment-you-want
+  tokyo-jp.eduvpn.net
+  your-port
+  your-password
+  aes-128-cfb
+  any-comment-you-want
 
 然后点击连接即可。
 
-默认为国内地址穿透，可以在右键菜单中改为全部流量均过路由器。
+默认为国内地址穿透，可以在右键菜单中改为全部流量均过服务器。
