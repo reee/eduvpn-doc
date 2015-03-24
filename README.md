@@ -5,7 +5,7 @@ eduVPN从2010年开始服务，eduVPN目前提供以下服务：
  * openVPN (IPv6 only)
  * shadowsocks (IPv6 / IPv4)
  * openconnect / anyconnect (IPv4 only, by ocserv)
- * shadowvpn (IPv4 /IPv6)
+ * shadowvpn (IPv4 / IPv6)
 
 # 致谢
 

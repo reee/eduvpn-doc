@@ -4,11 +4,11 @@
 
 为了保证在较低成本情况下提供最优服务，服务器列表可能随时会更新，请注意经常前来查看。
 
-服务器地址 | 地理位置 | 提供商 | 带宽情况
---- | --- | --- | ---
-tokyo-jp.eduvpn.net | 日本 东京 | Sakura | 100Mbps对等。**推荐通常情况下使用**
-fremont-us.eduvpn.net | 美国 费利蒙 | Linode | 40Gbps In，125Mbps Out。**推荐用于IPv6连接**
-hk.eduvpn.net | 香港 | Gigsgigscloud | 限速8mbps，无IPV6，仅IPV4。 **推荐延迟敏感场合，如游戏等**
+服务器地址 | 地理位置 | 带宽情况
+--- | --- | ---
+tokyo-jp.eduvpn.net | 日本 东京 | 100Mbps对等。**推荐通常情况下使用**
+fremont-us.eduvpn.net | 美国 费利蒙 | 40Gbps In，125Mbps Out。**推荐用于IPv6连接**
+hk.eduvpn.net | 香港 | 限速8mbps，无IPV6，仅IPV4。 **推荐延迟敏感场合，如游戏等**
 
 注：服务器相关监控，包括负载，带宽占用等，请查看：[munin](https://eduvpn.net/munin)
 

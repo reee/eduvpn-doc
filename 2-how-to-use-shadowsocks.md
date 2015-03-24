@@ -17,8 +17,8 @@ shadowsocks是一个比较新的协议，相比其他方式，主要特点如下
 
 系统 | 下载链接 | 本站缓存
 --- | --- | ---
-Windows | [官方sf站点](http://sourceforge.net/projects/shadowsocksgui/) | Win 8 以及更新的系统：[Shadowsocks-win-dotnet4.0-2.3.zip](https://eduvpn.net/files/Shadowsocks-win-dotnet4.0-2.3.zip) ，Win 7及更早系统：[Shadowsocks-win-2.3.zip](https://eduvpn.net/files/Shadowsocks-win-2.3.zip)
-Mac OS | [官方sf站点](http://sourceforge.net/projects/shadowsocksgui/)
+Windows | [官方sf站点](http://sourceforge.net/projects/shadowsocksgui/) | Win 8 以及更新的系统：[Shadowsocks-win-dotnet4.0-2.3.zip](https://eduvpn.net/files/Shadowsocks-win-dotnet4.0-2.3.zip) <br /> Win 7及更早系统：[Shadowsocks-win-2.3.zip](https://eduvpn.net/files/Shadowsocks-win-2.3.zip)
+Mac OS | [官方sf站点](http://sourceforge.net/projects/shadowsocksgui/) | [ShadowsocksX-2.6.3.dmg](https://eduvpn.net/files/ShadowsocksX-2.6.3.dmg)
 Linux | 直接从包管理器安装 | 无
 Android | [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) | 无
 iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?mt=8) | 无
@@ -28,9 +28,13 @@ iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?
 例如:
 
   tokyo-jp.eduvpn.net
+
   your-port
+
   your-password
+
   aes-128-cfb
+  
   any-comment-you-want
 
 然后点击连接即可。
