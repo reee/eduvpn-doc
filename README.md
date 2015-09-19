@@ -20,3 +20,5 @@ eduVPN从2010年开始服务，eduVPN目前提供以下服务：
  * [supervisor](http://supervisord.org/)：用于shadowsocks进程守护
  * [fail2ban](http://www.fail2ban.org/)：用于系统加固。
  * [freeradius](http://freeradius.org/)：用于提供中心认证系统。
+
+ # 下载本文档： [PDF](https://eduvpn.net/files/book.pdf) | [mobi](https://eduvpn.net/files/book.mobi) | [epub](https://eduvpn.net/files/book.epub)
