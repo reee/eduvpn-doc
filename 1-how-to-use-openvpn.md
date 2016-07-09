@@ -21,6 +21,7 @@ Linux/Windows: [config.zip](https://eduvpn.net/files/config.zip)
 Mac OS: [config-mac.zip](https://eduvpn.net/files/config-mac.zip)
 
 Linux/Windows与Mac OS的区别在于前者支持从文本文件读取用户名，密码，而后者不支持。默认配置为从eduvpn.txt文件读取，格式为：首行用户名，次行密码：
+
 （以下为用作示例的用户名密码，请使用您得到的用户名密码连接）
 
   xiaoming
