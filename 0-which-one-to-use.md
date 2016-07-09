@@ -9,6 +9,7 @@
 tokyo-jp.eduvpn.net | 日本 东京 | 100Mbps对等。**推荐通常情况下使用，IPV6连接比lax-us稍慢**
 lax-us.eduvpn.net | 美国 洛杉矶 | 100Mbps对等。**推荐用于IPv6连接和电信用户使用，IPV6连接最优**
 sg.eduvpn.net | 新加坡 | 100Mbps对等。 **电信走CN2，主要推荐电信用户使用**
+hk.eduvpn.net | 香港 | 100Mbps对等。 **电信联通双直连，推荐电信联通用户使用 无IPv6，不建议移动用户使用**
 
 注1：服务器相关监控，包括负载，带宽占用等，请查看：[munin](https://eduvpn.net/munin)
 
