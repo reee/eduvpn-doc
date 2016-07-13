@@ -8,19 +8,21 @@
 
 系统 | 下载链接 | 本站缓存
 --- | --- | ---
-Windows | [openVPN官方页面](http://openvpn.net/index.php/open-source/downloads.html) | [Win XP 32位](https://eduvpn.net/files/openvpn-install-2.3.8-I003-i686.exe) <br />[Win XP 64位](https://eduvpn.net/files/openvpn-install-2.3.8-I003-x86_64.exe) <br /> [Win Vista及以上 32位](https://eduvpn.net/files/openvpn-install-2.3.8-I603-i686.exe) <br /> [Win Vista及以上 64位](https://eduvpn.net/files/openvpn-install-2.3.8-I603-x86_64.exe)
-Mac OS | [TunnelBlick 官方页面](http://sourceforge.net/projects/tunnelblick/) | [Mac OS 10.6-10.10](https://eduvpn.net/files/Tunnelblick_3.5.3_build_4270.4371.dmg)
+Windows | [openVPN官方页面](http://openvpn.net/index.php/open-source/downloads.html) | [Win XP 32位](https://files.eduvpn.net/openvpn-install-2.3.11-I001-i686.exe) <br />[Win XP 64位](https://files.eduvpn.net/openvpn-install-2.3.11-I001-x86_64.exe) <br /> [Win Vista及以上 32位](https://files.eduvpn.net/openvpn-install-2.3.11-I601-i686.exe) <br /> [Win Vista及以上 64位](https://files.eduvpn.net/openvpn-install-2.3.11-I601-x86_64.exe)
+Mac OS | [TunnelBlick 官方页面](http://sourceforge.net/projects/tunnelblick/) | [Mac OS 10.6-10.10](https://files.eduvpn.net/Tunnelblick_3.6.4a_build_4561.dmg)
 Linux | 请直接从发行版源中安装 | 无
 
 ## 三、导入配置文件
 
 ### 首先需要下载配置文件：
 
-Linux/Windows: [config.zip](https://eduvpn.net/files/config.zip)
+Linux/Windows: [config.zip](https://files.eduvpn.net/config.zip)
 
-Mac OS: [config-mac.zip](https://eduvpn.net/files/config-mac.zip)
+Mac OS: [config-mac.zip](https://files.eduvpn.net/config-mac.zip)
 
 Linux/Windows与Mac OS的区别在于前者支持从文本文件读取用户名，密码，而后者不支持。默认配置为从eduvpn.txt文件读取，格式为：首行用户名，次行密码：
+
+（以下为用作示例的用户名密码，请使用您得到的用户名密码连接）
 
   xiaoming
 
@@ -40,4 +42,4 @@ Linux | */etc/openvpn* | 如果您自行编译的话，以编译时指定的目�
 
 放置好配置文件以后即可直接连接。
 
-注意：如果需要校内地址穿透，请下载 [routes.zip](https://eduvpn.net/files/route.zip) ，打开对应学校命名的txt文档。比如您在北师大则打开 *bnu.txt* ，将里面的所有内容加入到配置文件最后即可。
+注意：如果需要校内地址穿透，请下载 [routes.zip](https://files.eduvpn.net/route.zip) ，打开对应学校命名的txt文档。比如您在北师大则打开 *bnu.txt* ，将里面的所有内容加入到配置文件最后即可。
