@@ -26,6 +26,7 @@ iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?
 ## 三、连接
 
 打开shadowsocks，依次填入以下信息：
+
 选项 | 内容填写
 --- | ---
 服务器地址： | 请从(选择合适的连接方式)[https://eduvpn.net/0-which-one-to-use.html]页面选择。
