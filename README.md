@@ -18,4 +18,4 @@ eduVPN从2010年开始服务，eduVPN目前提供以下服务：
  * [fail2ban](http://www.fail2ban.org/)：用于系统加固。
  * [freeradius](http://freeradius.org/)：用于提供中心认证系统。
 
- 下载本文档： [PDF](https://eduvpn.net/files/book.pdf) | [mobi](https://eduvpn.net/files/book.mobi) | [epub](https://eduvpn.net/files/book.epub)
+ 下载本文档： [PDF](https://www.gitbook.com/download/pdf/book/eduvpn/eduvpn-doc) | [mobi](https://www.gitbook.com/download/mobi/book/eduvpn/eduvpn-doc) | [epub](https://www.gitbook.com/download/epub/book/eduvpn/eduvpn-doc)
