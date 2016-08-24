@@ -29,7 +29,7 @@ iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?
 
 选项 | 内容填写
 --- | ---
-服务器地址： | 请从(选择合适的连接方式)[https://eduvpn.net/0-which-one-to-use.html]页面选择。
+服务器地址： | 请从[选择合适的连接方式](https://eduvpn.net/0-which-one-to-use.html)页面选择。
 服务器端口： | 发送给您的端口
 密码： | 发送给您的密码
 加密： | 当前为  `aes-128-cfb`  
