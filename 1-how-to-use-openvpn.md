@@ -8,8 +8,8 @@
 
 系统 | 下载链接 | 本站缓存
 --- | --- | ---
-Windows | [openVPN官方页面](http://openvpn.net/index.php/open-source/downloads.html) | [Win XP 32位](https://files.eduvpn.net/openvpn-install-2.3.11-I001-i686.exe) <br />[Win XP 64位](https://files.eduvpn.net/openvpn-install-2.3.11-I001-x86_64.exe) <br /> [Win Vista及以上 32位](https://files.eduvpn.net/openvpn-install-2.3.11-I601-i686.exe) <br /> [Win Vista及以上 64位](https://files.eduvpn.net/openvpn-install-2.3.11-I601-x86_64.exe)
-Mac OS | [TunnelBlick 官方页面](http://sourceforge.net/projects/tunnelblick/) | [Mac OS 10.6-10.10](https://files.eduvpn.net/Tunnelblick_3.6.4a_build_4561.dmg)
+Windows | [openVPN官方页面](http://openvpn.net/index.php/open-source/downloads.html) | [Win Vista及以上](https://files.eduvpn.net/openvpn-install-2.4.3-I601.exe)
+Mac OS | [TunnelBlick 官方页面](http://sourceforge.net/projects/tunnelblick/) | [Mac OS 10.6-10.10](https://files.eduvpn.net/Tunnelblick_3.7.1b_build_4813.dmg)
 Linux | 请直接从发行版源中安装 | 无
 
 ## 三、导入配置文件

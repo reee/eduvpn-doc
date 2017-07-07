@@ -16,7 +16,7 @@ OpenVPN | 全局路由 | 客户端配置文件指定路由表 | 均支持 | Wind
 ShadowSocks | Socks5 / HTTP代理 | 默认国内路由穿透 | 均支持 | Windows, Mac OS, Linux, iOS, Android，OpenWRT/LEDE | 默认不支持全局代理，**推荐IPv4/IPv6 桌面端用户使用**
 OpenConnect / Anyconnect | 全局路由 | 服务器端默认国内路由穿透 | 仅IPv4 | Windows, Mac OS, Linux, iOS, Android | 支持漫游，即网络切换时保持在线。**推荐移动端用户使用**
 IKEv2 | 全局路由 | 路由所有流量 | 仅IPv4 | Windows, Mac OS, Linux, iOS, Android | 支持漫游，即网络切换时保持在线。**推荐MacOS，iOS用户使用** 
-SSTP | 全局路由 | 路由所有流量 | 仅IPv4 | 仅Windows | 支持漫游，即网络切换时保持在线。**推荐MacOS，iOS用户使用** 
+SSTP | 全局路由 | 路由所有流量 | 仅IPv4 | 仅Windows | **仅推荐Windows用户作为备用** 
 
 注：PPTP，L2TP不安全，IPsec（IKEv1）目前会被流量识别而导致服务器被阻断，不再提供。
 
