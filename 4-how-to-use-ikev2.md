@@ -15,7 +15,7 @@ IKEv2效率比ShadowSocks要低一些，与Anyconnect/OpenConnect效率相仿，
 
 * **iOS上使用IKEv2：** 点击 `设置`，选择 `通用-VPN-添加VPN配置`，其中 `描述` 字段可以自己取名， `服务器` 和 `远程ID` 均填写 [选择合适的连接方式](https://eduvpn.net/0-which-one-to-use.html) 处给出的服务器地址（必须填写域名，不能填写IP），用户鉴定保持默认的 `用户名` 方式，下方填入 给你的用户名，密码为可选，如果不填将在下次连接时询问。填好以后连接即可。
 
-* **Android上使用IKEv2：** 首先从[官方地址](https://download.strongswan.org/Android/)下载到官方提供的客户端，或者下载[本站缓存的客户端](https://files.eduvpn.net/strongSwan-1.9.2.apk). 点击右上角 `添加VPN配置` 新建VPN配置。在接下来的对话框中依次 [选择合适的连接方式](https://eduvpn.net/0-which-one-to-use.html)  处给出的服务器地址，您得到的用户名、密码。然后点击保存，然后连接即可。
+* **Android上使用IKEv2：** 首先从[官方地址](https://download.strongswan.org/Android/)下载到官方提供的客户端，或者下载[本站缓存的客户端](https://files.eduvpn.net/strongSwan-1.9.2.apk)。安装完成后打开软件，点击右上角 `添加VPN配置` 新建VPN配置。在接下来的对话框中依次 [选择合适的连接方式](https://eduvpn.net/0-which-one-to-use.html)  处给出的服务器地址，您得到的用户名、密码。然后点击保存，然后连接即可。
 
 * **macOS上使用IKEv2：** 
 1. 打开 `设置` 中的 `网络`，点击左下角的 `＋` 添加新的连接。在 `接口` 中选择VPN，`VPN类型` 选择 `IKEv2` ， [选择合适的连接方式](https://eduvpn.net/0-which-one-to-use.html) 处给出的服务器地址，而后点击“创建”。

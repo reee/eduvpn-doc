@@ -1,19 +1,19 @@
-# 如何使用shadowsocks
+# 如何使用ShadowSocks
 
-shadowsocks是一个比较新的协议，相比其他方式，主要特点如下：
+ShadowSocks是一个比较新的协议，相比其他方式，主要特点如下：
 
  * 优势：效率高。
  * 劣势：默认不提供全局代理（而是提供一个SOCKS5代理），如果需要全局代理（比如游戏）则需要额外的设置。
 
 **考虑到效率问题，推荐IPv4/IPv6用户首选。**
 
-## 一、shadowsocks 相关信息
+## 一、ShadowSocks 相关信息
 
-目前shadowsocks采取不同用户使用不同端口的方式来避免因为单个端口流量过高而被防火墙识别阻断的问题。当前采用的加密方式为 `aes-128-cfb`
+目前ShadowSocks采取不同用户使用不同端口的方式来避免因为单个端口流量过高而被防火墙识别阻断的问题。当前采用的加密方式为 `aes-128-cfb`
 
 注意：考虑到效率问题，加密方式可能会有所变更，请注意我们的邮件或者关注此页面。
 
-## 二、安装shadowsocks客户端
+## 二、安装ShadowSocks客户端
 
 系统 | 下载链接 | 本站缓存
 --- | --- | ---
@@ -25,7 +25,7 @@ iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?
 
 ## 三、连接
 
-打开shadowsocks，依次填入以下信息：
+打开ShadowSocks，依次填入以下信息：
 
 选项 | 内容填写
 --- | ---
@@ -45,3 +45,4 @@ iOS | [Apple App Store](https://itunes.apple.com/cn/app/shadowsocks/id665729974?
 1. 默认为国内地址穿透，可以在任务栏小飞机图标点击右键，在菜单 --> `系统代理模式` 中选择`全局模式`，改为全部流量均过服务器。
 2. 如果在启用代理的情况下异常关机，会导致下次打开浏览器出现无法连接情况，请打开shadowsocks，在任务栏小飞机图标点击右键，取消`启用系统代理`即可。
 3. 在Windows系统，如果您将shadowsocks放置于C盘程序目录，需要给予shadowsocks管理员权限，shadowsocks才能正常运行。
+4. 本站短期内没有任何提供ShadowSocksR的打算。
