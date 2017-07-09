@@ -4,9 +4,10 @@
 
 服务器地址 | 地理位置 | 推荐用于
 --- | --- | --- | ---
-**tokyo-jp.eduvpn.net** | 日本 东京 | 联通/移动/IPv6（绕美国）
-**lax-us.eduvpn.net** | 美国 洛杉矶 | 电信/联通/移动/IPv6
-**hk.eduvpn.net** | 香港 | 电信/移动/联通 无IPv6
+**tokyo-jp.eduvpn.net** | 日本·东京 | 联通/移动/IPv6（绕美国）
+**lax-us.eduvpn.net** | 美国·洛杉矶 | 电信/联通/移动/IPv6
+**hk.eduvpn.net** | 中国·香港 | 电信/移动/联通 无IPv6
+**de.eduvpn.net** | 德国·纽伦堡 | 移动/联通 无IPv6
 
 ## 当前提供的连接方式对比如下：
 
